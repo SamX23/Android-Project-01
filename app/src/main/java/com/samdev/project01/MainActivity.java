@@ -79,51 +79,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     @Override
-    protected void onRestart() {
-
-        super.onRestart();//call to restart after onStop
-
-        showLog("onRestart");
-
-    }
-
-    @Override
-    protected void onStart() {
-
-        super.onStart();//soon be visible
-
-        showLog("onStart");
-
-    }
-
-    @Override
-    protected void onResume() {
-
-        super.onResume();//visible
-
-        showLog("onResume");
-
-    }
-
-    @Override
-    protected void onPause() {
-
-        super.onPause();//invisible
-
-        showLog("onPause");
-
-    }
-
-    @Override
-    protected void onStop() {
-
-        super.onStop();
-
-        showLog("onStop");
-
-    }
-
-    @Override
     protected void onDestroy() {
         super.onDestroy();
         System.exit(0);
