@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/option_1"
+        android:title="@string/option1"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/option_2"
+        android:title="@string/option2"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/option_3"
+        android:title="@string/option3"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/about_us"
+        android:title="@string/about_us"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/keluar"
+        android:title="@string/keluar"
+        app:showAsAction="never" />
+
+
+</menu>
