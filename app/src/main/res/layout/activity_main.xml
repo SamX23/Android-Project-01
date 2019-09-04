@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="fill_parent"
     android:layout_height="match_parent"
@@ -11,41 +10,41 @@
     <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="match_parent"
+        android:layout_marginBottom="50dp"
         android:gravity="center_vertical"
-        android:orientation="vertical"
-        android:layout_marginBottom="50dp">
+        android:orientation="vertical">
 
         <ImageView
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:contentDescription="Logo App"
+            android:contentDescription="@string/app_logo_desc"
             android:src="@mipmap/ic_launcher" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/But01"
             style="@style/ButtonMain"
-            android:text="testing1" />
+            android:text="@string/but01" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/But02"
             style="@style/ButtonMain"
-            android:text="testing2" />
+            android:text="@string/but02" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/But03"
             style="@style/ButtonMain"
-            android:text="testing3" />
+            android:text="@string/but03" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/But04"
             style="@style/ButtonMain"
-            android:text="testing4" />
+            android:text="@string/but04" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/But05"
             style="@style/ButtonMain"
-            android:text="testing5" />
+            android:text="@string/but05" />
 
     </LinearLayout>
 

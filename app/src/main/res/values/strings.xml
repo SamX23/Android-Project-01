@@ -5,4 +5,10 @@
     <string name="option3">Option 3</string>
     <string name="keluar">Exit</string>
     <string name="about_us">About Us</string>
+    <string name="app_logo_desc">Deskripsi logo aplikasi</string>
+    <string name="but01">Button 01</string>
+    <string name="but02">Button 02</string>
+    <string name="but03">Button 03</string>
+    <string name="but04">Button 04</string>
+    <string name="but05">Button 05</string>
 </resources>

@@ -10,6 +10,11 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 
+import com.samdev.project01.content.Activity01;
+import com.samdev.project01.content.Activity02;
+import com.samdev.project01.content.Activity03;
+import com.samdev.project01.content.Activity04;
+import com.samdev.project01.content.Activity05;
 import com.samdev.project01.option_menu.AboutUs;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
@@ -46,14 +51,24 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.But01:
+                Intent movAct1 = new Intent(MainActivity.this, Activity01.class);
+                startActivity(movAct1);
                 break;
             case R.id.But02:
+                Intent movAct2 = new Intent(MainActivity.this, Activity02.class);
+                startActivity(movAct2);
                 break;
             case R.id.But03:
+                Intent movAct3 = new Intent(MainActivity.this, Activity03.class);
+                startActivity(movAct3);
                 break;
             case R.id.But04:
+                Intent movAct4 = new Intent(MainActivity.this, Activity04.class);
+                startActivity(movAct4);
                 break;
             case R.id.But05:
+                Intent movAct5 = new Intent(MainActivity.this, Activity05.class);
+                startActivity(movAct5);
                 break;
         }
     }
