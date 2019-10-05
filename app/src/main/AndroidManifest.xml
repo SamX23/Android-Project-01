@@ -17,12 +17,24 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".option_menu.AboutUs" />
-        <activity android:name=".content.Activity01" />
-        <activity android:name=".content.Activity02" />
-        <activity android:name=".content.Activity03" />
-        <activity android:name=".content.Activity04" />
-        <activity android:name=".content.Activity05" />
+        <activity
+            android:name=".option_menu.AboutUs"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".content.Activity01"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".content.Activity02"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".content.Activity03"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".content.Activity04"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".content.Activity05"
+            android:parentActivityName=".MainActivity" />
     </application>
 
     <dist:module dist:instant="true" />

@@ -3,7 +3,9 @@ package com.samdev.project01;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -44,7 +46,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         Button button5 = findViewById(R.id.But05);
         button5.setOnClickListener(this);
-
     }
 
     @Override
